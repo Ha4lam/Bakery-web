@@ -1,0 +1,524 @@
+.first_page{
+  background-image: url("drew-coffman-1872.jpg");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar{
+
+  position: sticky;
+  top: 0;
+  text-decoration-color: transparent;
+  z-index: 20;
+  width: 100%;
+  height: 50px;
+  padding: 25px 0;
+  overflow: hidden;
+  background-color: darkgoldenrod;
+  border-bottom: 1px white solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+*{
+  margin: 0;
+}
+.nav-bar img{
+  height: 75%;
+  padding-left: 75px;
+}
+.nav-bar li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 20px;
+  color: white;
+}
+.nav-bar li:hover{
+  color:sandybrown ;
+}
+.header{
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  padding-top: 600px;
+
+}
+.header h1{
+  font-size: 50px;
+  color: white;
+}
+.header p{
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  opacity: 50%;
+}
+.learn{
+  height: 50px;
+  width: 100px;
+  background-color:sandybrown ;
+
+}
+.cont{
+  height: 50px;
+  width: 100px;
+  background-color:transparent;
+}
+.second_page {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.identity{
+  width: 100%;
+  padding: 25px 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+
+}
+.content {
+  width: 50%;
+
+}
+.content ul {
+  list-style: disc;
+}
+.content li {
+  padding: 10px;
+}
+.image{
+  width:50%;
+}
+
+.image img{
+  width: 100%;
+}
+.location{
+  width: 100%;
+  padding: 25px 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  background-color: #dddddd ;
+
+}
+
+.gallery{
+  padding: 50px 25px;
+  width: 70%;
+  margin: auto;
+}
+.gallery h2{
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.items{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.item-gallery{
+  width: 33%;
+  position: relative;
+  text-align: center;
+}
+.item-gallery img{
+  width: 100%;
+}
+.item-gallery h3{
+  font-size: 24px;
+  font-family: "Times New Roman", serif;
+  font-weight: 600;
+}
+.item-gallery p{
+  text-align: center;
+}
+
+ .contact{
+   font-family: Arial, serif;
+   width: 70%;
+   padding: 15px 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: nowrap;
+ }
+.contact h2{
+  font-size: 40px;
+  font-family: "Times New Roman", serif;
+}
+.contact-details{
+  width: 50%;
+
+}
+.map{
+  width: 30%;
+  padding: 25px 0;
+}
+.map img{
+  width: 100%;
+}
+
+@media screen and (max-width:768px ){
+.first_page{
+  background-image: url("drew-coffman-1872.jpg");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar{
+
+  position: sticky;
+  top: 0;
+  text-decoration-color: transparent;
+  z-index: 20;
+  width: 100%;
+  height: 50px;
+  padding: 25px 0;
+  overflow: hidden;
+  background-color: darkgoldenrod;
+  border-bottom: 1px white solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+*{
+  margin: 0;
+}
+.nav-bar img{
+  height: 75%;
+  padding-left: 75px;
+}
+.nav-bar li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 20px;
+  color: white;
+}
+.nav-bar li:hover{
+  color:sandybrown ;
+}
+.header{
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  padding-top: 600px;
+
+}
+.header h1{
+  font-size: 50px;
+  color: white;
+}
+.header p{
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  opacity: 50%;
+}
+.learn{
+  height: 50px;
+  width: 100px;
+  background-color:sandybrown ;
+
+}
+.cont{
+  height: 50px;
+  width: 100px;
+  background-color:transparent;
+}
+.second_page {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.identity{
+  width: 100%;
+  padding: 25px 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+.content {
+  width: 100%;
+
+}
+.content ul {
+  list-style: disc;
+}
+.content li {
+  padding: 10px;
+}
+.image{
+  width:100%;
+}
+
+.image img{
+  width: 100%;
+}
+.location{
+  width: 100%;
+  padding: 25px 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #dddddd ;
+
+}
+
+.gallery{
+  padding: 30px 15px;
+  width: 85%;
+  margin: auto;
+}
+.gallery h2{
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.item-gallery{
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.item-gallery img{
+  width: 100%;
+}
+.item-gallery h3{
+  font-size: 24px;
+  font-family: "Times New Roman", serif;
+  font-weight: 600;
+}
+.item-gallery p{
+  text-align: center;
+}
+
+ .contact{
+   font-family: Arial, serif;
+   width: 85%;
+   padding: 15px 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+ }
+.contact h2{
+  font-size: 40px;
+  font-family: "Times New Roman", serif;
+}
+.contact-details{
+  width: 100%;
+
+}
+.map{
+  width: 70%;
+  padding: 25px 0;
+}
+.map img{
+  width: 100%;
+}
+
+}
+@media screen and (max-width:576px ){
+.first_page{
+  background-image: url("drew-coffman-1872.jpg");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar{
+
+  position: sticky;
+  top: 0;
+  text-decoration-color: transparent;
+  z-index: 20;
+  width: 100%;
+  height: 50px;
+  padding: 25px 0;
+  overflow: hidden;
+  background-color: darkgoldenrod;
+  border-bottom: 1px white solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+*{
+  margin: 0;
+}
+.nav-bar img{
+  height: 75%;
+  padding-left: 75px;
+}
+.nav-bar li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 20px;
+  color: white;
+}
+.nav-bar li:hover{
+  color:sandybrown ;
+}
+.header{
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  padding-top: 600px;
+
+}
+.header h1{
+  font-size: 50px;
+  color: white;
+}
+.header p{
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  opacity: 50%;
+}
+.learn{
+  height: 50px;
+  width: 100px;
+  background-color:sandybrown ;
+
+}
+.cont{
+  height: 50px;
+  width: 100px;
+  background-color:transparent;
+}
+.second_page {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.identity{
+  width: 100%;
+  padding: 25px 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+.content {
+  width: 100%;
+
+}
+.content ul {
+  list-style: disc;
+}
+.content li {
+  padding: 10px;
+}
+.image{
+  width:100%;
+}
+
+.image img{
+  width: 100%;
+}
+.location{
+  width: 100%;
+  padding: 25px 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #dddddd ;
+
+}
+
+.gallery{
+  padding: 30px 15px;
+  width: 85%;
+  margin: auto;
+}
+.gallery h2{
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.item-gallery{
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.item-gallery img{
+  width: 100%;
+}
+.item-gallery h3{
+  font-size: 24px;
+  font-family: "Times New Roman", serif;
+  font-weight: 600;
+}
+.item-gallery p{
+  text-align: center;
+}
+
+ .contact{
+   font-family: Arial, serif;
+   width: 85%;
+   padding: 15px 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+ }
+.contact h2{
+  font-size: 40px;
+  font-family: "Times New Roman", serif;
+}
+.contact-details{
+  width: 100%;
+
+}
+.map{
+  width: 70%;
+  padding: 25px 0;
+}
+.map img{
+  width: 100%;
+}
+
+}
+
