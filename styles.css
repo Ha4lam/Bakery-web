@@ -24,11 +24,10 @@ p {
 }
 
 li {
-    font-weight: 600;
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 13px;
     color: rgb(102, 102, 102);
-    font-weight: 400;
+    font-weight: 600;
 }
 
 :root {
@@ -557,4 +556,4 @@ html {
 }
 
 }
-}
+
