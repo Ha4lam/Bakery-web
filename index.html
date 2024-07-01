@@ -4,22 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family Bakery</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Alegreya+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="nav-container">
-        <div class="nav-bar">
-<!--            <img src="bakery-light-1.png" alt="logo">-->
-            <div class="topic"> <h2>Bakery</h2> </div>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Our Offer</li>
-                <li>Gallery</li>
-                <li>Contact</li>
-            </ul>
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Bakery</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-grow-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link fw-semibold active"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" aria-current="page" href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" aria-current="page" href="#"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" aria-current="page" href="#"
+                >Contect us</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <div class="first_page">
         <div class="header">
@@ -103,6 +139,7 @@
         </div>
         <div class="map"><img src="vt.png" alt="map"></div>
     </div>
+    <script src="bootstrap.min.js"></script>
 </body>
 </html>
 
